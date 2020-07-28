@@ -34,11 +34,22 @@ const App = (props) => {
       ],
     });
   }
+
+  // inline styling!!
+  const gomb ={
+   backgroundColor: 'blue',
+   color: '#eee',
+   border: '1px solid green',
+   borderRadius: '16px',
+   padding: '10px',
+   cursor: 'pointer'
+  };
+
   return (
     <div className="App">
       <h1>React app!</h1>
       <p>This is working!</p>
-      <button onClick={switchNameHandler.bind(this, 'Maxiee')}>Switch name</button>
+      <button style={gomb} onClick={switchNameHandler.bind(this, 'Maxiee')}>Switch name</button>
       <Person 
       name={person.persons[0].name} 
       age={person.persons[0].age} />
