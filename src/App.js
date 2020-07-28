@@ -58,7 +58,11 @@ const App = (props) => {
       age={person.persons[1].age} 
       click = {
         switchNameHandler.bind(this, 'Max!!')
-      } changed={nameChangedHandler}>
+      }
+      changed = {
+        nameChangedHandler
+      }
+      currentName = {person.name}>
         
       </Person>
       <Person 
