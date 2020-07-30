@@ -6,9 +6,9 @@ import Person from "./Person/person";
 class App extends Component {
   state = {
     persons: [
-      { id: 'asfa1', name: 'Max', age: 28 },
-      { id: 'vasdf1', name: 'Manu', age: 29 },
-      { id: 'asdf11', name: 'Stephanie', age: 26 }
+      { id: 'asfa1', name: 'Lucy', age: 29 },
+      { id: 'vasdf1', name: 'Max', age: 33 },
+      { id: 'asdf11', name: 'Steve', age: 26 }
     ],
     otherState: 'some other value',
     showPersons: false
@@ -47,9 +47,9 @@ class App extends Component {
 
   render () {
     const style = {
-      backgroundColor: 'white',
-      font: 'inherit',
+      backgroundColor: 'blue',
       border: '1px solid blue',
+      color: 'white',
       padding: '8px',
       cursor: 'pointer'
     };
