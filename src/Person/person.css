@@ -21,3 +21,14 @@
   border-bottom: 0.1rem solid blue;
   
 }
+
+.gomb {
+  background: blue;
+  color: #eee;
+  border: none;
+  box-shadow: 0 2px 3px #ccc;
+  margin-left: 80%;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+}
